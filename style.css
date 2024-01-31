@@ -4,6 +4,24 @@ body {
     animation: h 0.3s ease infinite;
 }
 
+p, h1 {
+    color: red;
+    font-size: 10rem;
+    animation: n 0.2s infinite;
+}
+
+@keyframes n {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: lime;
+    }
+}
+
 @keyframes h{
     0% {
         background-position: 0% 50%;
